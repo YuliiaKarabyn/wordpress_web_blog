@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1190px;
+}
+
+
+
+/* ============ COLOR ========= */
+
+.dark-grey-color {
+    color: #313943;
+}
+.green-color {
+    color:#83928f;
+}
+.cream-color {
+    color: #d4c8ba;
+}
+.light-gray-color {
+    color: #e7e2e0;
+}
+.blue-сolor {
+    color: #a6adbf;
+}
+.bg-light-gray-color {
+    background-color: #e7e2e0;
+}
+.bg-blue-сolor {
+    background-color:#a6adbf;
+}
+.bg-cream-color {
+    background-color:#d4c8ba;
+}
+.bg-creamlightcolor {
+    background-color: #d4c8ba1f;
+}
+.bg-dark-grey-color {
+    background-color:#313943
+}
+.bg-green-color {
+    background-color: #83928f;
+}
+/* ===== Font-Sizes ======= */
+h1 {
+    font-weight: 600;
+    font-size: 74px;
+    line-height: 110%;
+}
+h2 {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 100%;
+}
+h3 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 100%;
+}
+h4 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+}
+h5 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+}
+h6 {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 100%;
+}
+p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+}
+
+/* ======= MENU ======== */
+.menu{
+	position: fixed;
+	z-index: 999999;
+	top:20px;
+}
+
+ ul {
+    list-style: none!important;
+}
+.primary-menu ul li.page_item a {
+    color: #313943!important;
+    text-decoration: none;
+}
+/* ======== FOOTER ========= */
+footer {
+    background: #262626;
+    padding: 45px 0 50px;
+    min-height: 80px;
+}
+
+footer {
+	min-height: 100px;
+}
+footer p {
+	opacity: 0.7;
+}
+
+
+
+
+
+@media screen and (max-width: 440px)  {
+    .n-s {
+        display: flex;
+        flex-direction: column;
+    }
+    .m-p {
+        display: flex;
+        flex-direction: column;
+    }
+    .contact_form_main textarea  {
+        width: 370px;
+    }
+    
+    .about-block  {
+        max-width: 370px;
+    }
+    .contact-block {
+        height: auto;
+    }
+}

@@ -1,0 +1,23 @@
+.blog .sticky {
+	position: sticky;
+	top: 150px;
+    left:200px;
+    margin-bottom:250px;
+}
+.blog .valignn:hover {
+    background-color:#e7e2e0;
+}
+.blog .valignn a:visited {
+    color: #a6adbf;
+}
+.blog .valignn {
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    border: 1px solid #f4f2f2;
+}
+
+.blog .afterblog {
+    height: 350px;
+    background-color: #a6adbf;
+}
